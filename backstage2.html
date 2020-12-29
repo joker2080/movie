@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>影城后台</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/backstage2.css"/>
+	<body>
+		<div class="box-All">
+		<!-- 头部 -->
+		<header>
+			<div class="box-Login">
+				<div>欢迎登陆：旺达电影城</div>
+			</div>
+			<ul>
+				<li>影厅管理</li>
+				<li>优惠券</li>
+				<li>排片</li>
+				<li>统计</li>
+				<li>5</li>
+			</ul>
+		</header>
+		<!-- 身体 -->
+		<section>
+			<div id="tishi">
+				<div class="tishi-left">
+					<div class="tupian"><img src="images/xg2.jpg" ></div>
+					<div class="btn-image"><input type="file" name="" id="" value="更换图片" /></div>
+				</div>
+				<div class="tishi-right">
+					<div>影厅名称：<input type="text" name="name" size="16" value="" /></div>
+					<div>影厅地址：<input type="text" name="dizhi" size="16" value="" /></div>
+					<div>联系电话：<input type="text" name="dizhi" size="16" value="" /></div>
+					<div>
+						<input type="button" id="quxiao" value="取消" />
+						<input type="button" id="zeng" value="新增" />
+					</div>
+				</div>
+			</div>
+			
+			<div class="box-show">
+				<!-- <div class="box-sou">
+					影厅名：
+					<input type="text" name="search" id="sou" value="" /> 
+					<input type="button" id="btn" value="查询" />	
+					<span><input type="button" id="insert" value="新增影厅" /></span>
+				</div>
+				<span>
+					<div>
+						<span>影厅：万达电影城</span>
+						<input type="button" id="del" value="删除" />
+					</div>
+					<div>
+						<span>影城：万达电影城</span>
+						<input type="button" id="del" value="删除" />
+					</div>
+					<div>
+						<span>影城：万达电影城</span>
+						<input type="button" id="del" value="删除" />
+					</div>
+					<div>
+						<span>影城：万达电影城</span>
+						<input type="button" id="del" value="删除" />
+					</div>
+					<div>
+						<span>影城：万达电影城</span>
+						<input type="button" id="del" value="删除" />
+					</div>
+					<div>
+						<span>影城：万达电影城</span>
+						<input type="button" id="del" value="删除" />
+					</div>
+				</span>
+				<div class="box-btn">
+					<input type="button" id="prevPage" value="上一页" />
+					<span>1/31</span>
+					<input type="button" id="nextPage" value="下一页" />
+				</div> -->
+				<!-- <div id="box-pai">
+					<div>影厅：
+						<select style="height: 27px;">
+							<option value ="">112331231</option>
+						</select>
+					</div>
+					<div class="kai">开始时间：<input type="text" size="15" style="line-height: 20px;" name="setime" /></div>
+					<div class="money">间隔时间：<input type="text" size="15" name="money" style="line-height: 20px; " /></div>
+					<div>
+						<span>电影：</span>
+						<div class="movie-box-film">
+							<div class="box-film">
+								<div><img src="images/Dydahongbao.jpg" ></div>
+								<div class="movie-box-film-jian">大红包</div>
+							</div>
+							<div class="box-film">
+								<div><img src="images/DyfengkuangdeGPS.jpg" ></div>
+								<div class="movie-box-film-jian">疯狂的GPS</div>
+							</div>
+						</div>
+					</div>
+					<table id="box-biao" cellspacing="10">
+						<tr>
+							<th>电影ID</th>
+							<th>电影名称</th>
+							<th>开始时间</th>
+							<th>结束时间</th>
+							<th>价格</th>
+						</tr>
+						<tr>
+							<td>
+								<img src="image/01.jpg" width="100px">
+								<div>222</div>
+							</td>
+							<td>2020-10-10 12:12</td>
+							<td>2020-10-10 12:12</td>
+							<td><input type="number" name="money" value="0" style="width: 50px; line-height: 20px; text-align: center;" /></td>
+						</tr>
+						<tr>
+							<td>
+								<img src="image/01.jpg" width="100px">
+								<div>222</div>
+							</td>
+							<td>2020-10-10 12:12</td>
+							<td>2020-10-10 12:12</td>
+							<td><input type="number" name="money" value="0" style="width: 50px; line-height: 20px; text-align: center;" /></td>
+						</tr>
+					</table>
+					<span class="btn-quxiao">取消</span>
+					<span class="btn-pai">确定</span>
+				</div> -->
+				<!-- <div class="box-chase">
+					<span  style="font-size: 18px; font-weight: bold;">排片信息</span>
+					<div class="zeng-pai">新增</div>
+					<div class="box-sel">
+						<span>影厅：</span>
+						<span id="box-op">
+							<select style="height: 27px;">
+								<option value ="">112331231</option>
+							</select>
+						</span>
+					</div>
+					
+					<div class="box-table">
+						<table id="box-biao-cha" cellspacing="10">
+							<tr>
+								<th>电影</th>
+								<th>开始时间</th>
+								<th>结束时间</th>
+								<th>价格</th>
+							</tr>
+							<tr>
+								<td>
+									<img src="image/01.jpg" width="80px">
+									<div>无名狂</div>
+								</td>
+								<td>2020-10-10 12:12</td>
+								<td>2020-10-10 12:12</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="image/01.jpg" width="80px">
+									<div>222</div>
+								</td>
+								<td>2020-10-10 12:12</td>
+								<td>2020-10-10 12:12</td>
+								<td>20</td>
+							</tr>
+							
+						</table>
+					</div>
+				</div> -->
+				<!-- <div class="box-cp">
+					<div class="box-cp-top">新增优惠券</div>
+					<div>优惠券名称：<input type="text" name="cpname" /></div>
+					<div>优惠券额度：<input type="number" name="cplimit" /></div>
+					<div>减免方式：
+						<input type="radio" value="1" name="cpjian" checked="checked" /><span>立减</span>
+						<input type="radio" value="2" name="cpjian" /><span>满减</span>
+					</div>
+					<div>到期时间：<input type="text" name="cptime" placeholder="日期:年-月-日 时:分" /></div>
+					<div>满减额度：<input type="number" name="cpmoney" /></div>
+					<span class="yhj-quxiao">取消</span><span class="yhj-insert">新增</span>
+				</div>
+				
+				
+				<div>
+					<div class="zeng-yhj">新增</div>
+					<div class="biaoti">优惠券</div>
+					
+					<div class="box-table-yhj">
+						<table id="yhj-table">
+							<tr>
+								<th>优惠券名称</th>
+								<th>额度</th>
+								<th>减免方式</th>
+								<th>到期日期</th>
+							</tr>
+							<tr>
+								<td>旺达电影城10立减劵</td>	
+								<td>10</td>
+								<td>立减</td>
+								<td>2020-07-17 11:18:16</td>
+							</tr>
+							<tr>
+								<td>旺达电影城10立减劵</td>
+								<td>满30减10</td>
+								<td>满减</td>
+								<td>2020-07-17 11:18:16</td>
+							</tr>
+						</table>
+					</div>
+				</div> -->
+				<div>
+					<span>电影</span>
+					<div class="movie-box-film">
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- 尾部 -->
+		<footer>
+			
+		</footer>
+		</div>
+		<script src="js/jquery-1.8.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/backstage2.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

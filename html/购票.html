@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>购票</title>
+		<link rel="stylesheet" type="text/css" href="../css/购票.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/tou.css"/>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div class="header">
+		  	<div class="header-inner">
+		          <h1><a href="zy.html" class="logo" ></a></h1>
+		        <div class="city-container" >
+		            <div class="city-selected">
+		                <div class="city-name">
+		                  	株洲
+		                  <!--<span class="caret"></span>-->
+		                </div>
+		            </div>
+		
+		        </div>
+		        <div class="nav">
+		            <ul class="navbar">
+		                <li><a href="../index.html" >首页</a></li>
+		                <li><a href="dy.html" class="active">电影</a></li>
+		                <li><a href="" >影院</a></li> 
+		            </ul>
+		        </div>
+		        <div class="user-info">
+		            <div class="user-avatar J-login">
+		              <img src="../images/Denglu.png">
+		              <span class="caret"></span>
+		            </div>
+		            <div class="dl">
+		            	<div class="dl-span-dl"><a href="">登录</a></div>
+		            </div>
+		        </div>
+		
+		        <form action="html/搜索.html" target="_blank" class="search-form">
+		            <input name="kw" class="search" type="search" maxlength="32" placeholder="找影视剧、影人、影院" autocomplete="off">
+		            <input class="submit" type="submit" value="" >
+		        </form>
+		    </div>
+		</div>
+		<!-- 身体 -->
+		<section class="section">
+			<div class="shen">
+				<div class="seat1">
+					<div class="hall">一号厅</div>
+					<div class="seat2">
+						<div class="seat3">
+							<ul class="hang">
+								<li>1</li>
+								<li>2</li>
+								<li>3</li>
+								<li>4</li>
+								<li>5</li>
+								<li>6</li>
+								<li>7</li>
+							</ul>
+						</div>
+						<div class="table">
+							<table border="0" cellspacing="" cellpadding="" id="table"></table>
+						</div>
+						<div class="seat4">
+							<div><img src="../images/zw1.png" ><span>可选</span></div>
+							<div><img src="../images/zw2.png" ><span>已选</span></div>
+							<div><img src="../images/zw3.png" ><span>已售</span></div>
+						</div>
+					</div>
+				</div>
+				<div class="details">
+					<div class="movie">电影详情</div>
+					<div class="movie-img"><img src="../images/movie1.jpg" ></div>
+					<form action="" method="">
+					<div class="movie-details">
+						<div>影片：<span class="movie-name">姜子牙</span></div>
+						<div>导演：卢本伟</div>
+						<div>主演：马飞飞</div>
+						<div>影城：<span>万达电影城</span></div>
+						<div>影厅：<span>一号厅</span></div>
+						<div>座位：</div>
+						<div id="zuo"><span> </span></div>
+						<div>单价：<span id="movie-money">30.00</span></div>
+						<div>总价：<span id="movie-zmoney">0.00</span></div>
+					</div>
+					<div class="box"><input type="button" id="sub" value="提交订单" class="submit"/></div>
+					</form>
+				</div>
+			</div>
+			<div id="tishi">
+				请选择电影座位
+				<div><input type="button" id="btn" value="确定" /></div>
+			</div>
+		</section>
+		<!-- 尾部 -->
+		<footer>
+			<div class="footer">
+				<p class="footer-text">
+					商务合作邮箱：v@maoyan.com
+				    客服电话：10105335
+				    违法和不良信息举报电话：4006018900
+				</p>
+				<p class="footer-text">
+				    用户投诉邮箱：tousujubao@meituan.com
+				    舞弊线索举报邮箱：wubijubao@maoyan.com
+				</p>
+				<p class="footer-text">
+				    本网站纯属虚构，如有雷同，必定巧合，不用于商业交易
+				</p>
+				<p class="footer-text">
+				    制作人：柳佳辉-程栋-刘林-夏英麒
+				</p>
+				<p class="footer-text">
+					©2020 猫眼电影 maoyan.com
+				</p>
+			</div>
+		</footer>
+		<script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+		<script type="text/javascript" src="../js/购票.js"></script>
+		<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

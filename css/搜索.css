@@ -1,0 +1,136 @@
+*{padding:0;margin: 0;}
+a {
+    text-decoration: none;
+}
+.shen1{
+	width: 100%;
+    min-width: 1200px;
+    background: #47464a;
+    padding-bottom: 30px;
+}
+.shen2{
+	width: 630px;
+    margin: 0 auto;
+    padding-top: 38px;
+    padding-bottom: 8px;
+    position: relative;
+}
+.shen3{
+	box-sizing: border-box;
+    line-height: 18px;
+    width: 630px;
+    padding: 15px 50px 15px 20px;
+    border: 1px solid #999;
+    border-radius: 50px;
+	outline: none;
+}
+.submit{
+	position: absolute;
+	border: none;
+	left: auto;
+    top: 51px;
+    right: 12px;
+    width: 27px;
+    height: 27px;
+	outline: none;
+    background: url(../images/search.png) no-repeat 50%;
+	cursor:pointer;
+}
+.shen4{
+	width: 1200px;
+    margin: 0 auto;
+	border: soli 1px #000000;
+}
+.shen5{
+	width: 900px;
+    margin: 0 auto;
+	padding-bottom: 20px;
+}
+.movie{
+	overflow: hidden;
+	padding: 2px;
+}
+.movie dd{
+	width: 400px;
+    float: left;
+    margin-top: 40px;
+    line-height: 1.2;
+    margin: 30px 0 0 30px;
+    position: relative;
+}
+.movie-item{
+	border: 1px solid #efefef;
+	float: left;
+    margin-right: 20px;
+	display: block;
+}
+.movie-poster{
+	background-color: #fcfcfc;
+    width: 160px;
+    height: 220px;
+	overflow: hidden;
+    position: relative;
+}
+.movie-poster img{
+	width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.movie-title{
+	font-size: 26px;
+    width: auto;
+    margin-top: 15px;
+}
+.movie-title a{
+	color: #333333;
+}
+.movie-info{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    border-bottom: 1px solid #e5e5e5;
+	width: 220px;
+    height: 163px;
+}
+.movie-info-text{
+	margin-bottom: 30px;
+    color: #ff5252;
+    height: 31px;
+    line-height: 31px;
+}
+.movie-info-text span{
+	font-size: 26px;
+    font-weight: 700;
+    font-family: stonefont;
+}
+.movie-info-type{
+	margin-top: 5px;
+    font-size: 16px;
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-bottom: 1px;
+    margin-bottom: -1px;
+}
+.movie-info-pub{
+	padding-top: 5px;
+    color: #999;
+}
+.footer{
+	background-color: #262426;
+    padding: 56px 0;
+    margin: 0 auto;
+    min-width: 1200px;
+    margin-top: 82px;
+	color: #ccc;
+}
+.footer-text{
+	margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    height: 22px;
+}

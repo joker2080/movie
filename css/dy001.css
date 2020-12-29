@@ -1,0 +1,1043 @@
+.banner{
+	width: 100%;
+	min-width: 1200px;
+	background: #392f59 no-repeat 50%;
+}
+.banner .wrapper {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    height: 376px;
+    position: relative;
+}
+.banner .wrapper .celeInfo-left {
+    width: 300px;
+    float: left;
+    position: relative;
+    top: 70px;
+    overflow: hidden;
+    z-index: 9;
+}
+.celeInfo-left .avatar-shadow, .cinema-left .avatar-shadow {
+    position: relative;
+    margin: 0 30px;
+    width: 240px;
+    height: 330px;
+    padding-bottom: 40px;
+}
+body {
+	background-color: #fff;
+	display: block;
+}
+.celeInfo-left .avatar-shadow .avatar {
+    border: 4px solid #fff;
+    height: 322px;
+    width: 232px;
+}
+.movie-ver {
+    position: absolute;
+    top: 4px;
+    left: -2px;
+    font-size: 12px;
+    color: #fff;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix:after, .clearfix:before {
+    content: " ";
+    display: table;
+}
+.banner .wrapper .celeInfo-right {
+    position: relative;
+    margin-right: 30px;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+.movie-brief-container {
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    z-index: 1;
+}
+.movie-brief-container .name {
+    width: 700px;
+    margin-top: 0;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 64px;
+}
+h1{
+	display: block;
+	font-size: 2em;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+.ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.movie-brief-container .ename {
+    width: 340px;
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 14px;
+}
+.movie-brief-container ul {
+    width: 250px;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.movie-brief-container ul li {
+    margin: 12px 0;
+	margin-top: 12px;
+	margin-right: 0px;
+	margin-bottom: 12px;
+	margin-left: 0px;
+    line-height: 100%;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+div{
+	display: block;
+}
+.action-buyBtn {
+    position: absolute;
+    bottom: 20px;
+}
+.movie-stats-container {
+    position: absolute;
+    top: 158px;
+    left: 342px;
+}
+.movie-stats-container .movie-index {
+    margin-bottom: 16px;
+    color: #fff;
+}
+.movie-stats-container .movie-index .movie-index-title {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.movie-stats-container .movie-index .movie-index-content {
+    overflow: hidden;
+}
+.movie-stats-container .movie-index .movie-index-content .no-info {
+    display: inline-block;
+    font-size: 24px;
+    color: #9c87b8;
+    color: hsla(0,0%,100%,.4);
+}
+.one-line {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.stonefont {
+    font-family: "宋体";
+	color: orange;
+	font-size: 30px;
+}
+.action-buyBtn {
+    position: absolute;
+    bottom: 20px;
+}
+.banner li, .banner p, .banner ul {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    list-style: none;
+    list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    line-height: 1;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.action-buyBtn .action a {
+    cursor: pointer;
+    float: left;
+    display: block;
+    width: 120px;
+    height: 25px;
+    background-color: #756189;
+    margin-right: 10px;
+    padding-top: 11px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    border-radius: 2px;
+}
+.action-buyBtn .action i.icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 2px;
+    width: 16px;
+    height: 16px;
+}
+.action-buyBtn .action .wish i.wish-icon {
+    background-image: url(../image/heart.png);
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;
+}
+.action-buyBtn .action .score-btn i.score-btn-icon {
+    background-image: url(../image/start.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.main-content-container {
+    margin-top: 80px;
+}
+.main-content-container>div.main-content {
+    width: 730px;
+    float: left;
+}
+.tab-container .crumbs-nav-container {
+    margin-bottom: 25px;
+    color: black;
+}
+.tab-container .crumbs-nav-container a {
+    color: inherit;
+}
+.tab-container .tab-title-container {
+    border-bottom: 2px solid #eee;
+}
+.tab-container .tab-title-container .tab-title.active {
+    color: #ef4238;
+    border-bottom-color: #ef4238;
+}
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+a {
+    background-color: transparent;
+}
+.tab-container .tab-title-container {
+    border-bottom: 2px solid #eee;
+}
+.tab-container .tab-title-container .tab-title {
+    cursor: pointer;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: -2px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+    line-height: 100%;
+    border-bottom: 2px solid transparent;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+}
+.tab-container .tab-title-container .tab-title.tab-disabled {
+    color: #999;
+    cursor: not-allowed;
+}
+.tab-container .tab-content-container .tab-content.active {
+    display: block;
+}
+.tab-desc {
+    margin-top: 40px;
+}
+.module {
+    position: relative;
+	margin-bottom: 60px;
+}
+.module .mod-title h2 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+    line-height: 18px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.module .mod-title .more {
+    float: right;
+    cursor: pointer;
+    font-size: 14px;
+    color: #999;
+    padding-right: 14px;
+	background: url(../image/jt.png);
+    background-image: url(../image/jt.png);
+    background-position-x: 100%;
+    background-position-y: center;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+.module .mod-content {
+    margin-top: 20px;
+    color: #333;
+}
+.module .mod-title h2:before {
+    float: left;
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 18px;
+    margin-right: 6px;
+    background-color: #ef4238;
+}
+.tab-desc .dra {
+    font-size: 14px;
+    line-height: 26px;
+}
+.celebrity-container {
+    font-size: 16px;
+    color: #333;
+}
+
+.tab-desc .celebrity-container .celebrity-group:first-child {
+    margin-left: 0;
+}
+.tab-desc .celebrity-container .celebrity-group {
+    float: left;
+    margin-left: 30px;
+}
+.celebrity-container .celebrity-type {
+    margin-bottom: 16px;
+}
+.celebrity-container .celebrity-list {
+    margin-left: -20px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.tab-desc .celebrity-container .celebrity-group .celebrity {
+    margin-bottom: 0;
+}
+.celebrity-container .celebrity {
+    float: left;
+    width: 128px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+        list-style: none;
+        list-style-type: none;
+        list-style-position: initial;
+        list-style-image: initial;
+        padding-left: 0;
+        margin: 0;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+}
+.celebrity-container .celebrity .portrait {
+    margin-bottom: 6px;
+    width: 128px;
+    height: 170px;
+    overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.celebrity-container .celebrity .portrait img {
+    width: 128px;
+    height: 170px;
+}
+.default-img {
+    background-image: url(../image/yy1.jpg);
+    background-position: 50%;
+	background-position-x: 50%;
+	background-position-y: center;
+    background-size: 68px 62px;
+    background-repeat: no-repeat;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat;
+}
+.default-img {
+    background-image: url(../image/yy2.jpg);
+    background-position: 50%;
+    background-size: 68px 62px;
+    background-repeat: no-repeat;
+}
+.celebrity-container .celebrity .name, .celebrity-container .celebrity .role {
+    display: inline-block;
+    width: 128px;
+    text-align: center;
+    padding-bottom: 1px;
+    margin-bottom: -1px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;	
+    white-space: nowrap;
+}
+.celebrity-container .celebrity .name {
+    margin-top: 8px;
+    line-height: 1.2;
+    color: #333;
+}
+.tab-desc .album>div:first-child, .tab-desc .album>div:first-child img {
+    width: 465px;
+    height: 258px;
+}
+.tab-desc .album .img2, .tab-desc .album .img3 {
+    margin-left: 6px;
+	margin-bottom: 6px;
+}
+.tab-desc .album .img4, .tab-desc .album .img5 {
+    margin-left: 6px;
+}
+.tab-desc .album>div {
+    float: left;
+    width: 126px;
+    height: 126px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.comment-entry {
+    cursor: pointer;
+    position: absolute;
+    top: -10px;
+    right: 0;
+    display: block;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 15px;
+    border: 1px solid #ef4238;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    color: #ef4238;
+}
+.attribute {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.attribute-item {
+    width: 50%;
+    height: 93px;
+    padding: 20px 0 20px 27px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: .5px solid #e5e5e5;
+    border-right: .5px solid #e5e5e5;
+    letter-spacing: 0;
+    border: .5px solid #e5e5e5;
+}
+.attribute-item-icon {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+img {
+    border-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+.attribute-item-title {
+    font-size: 18px;
+    color: #333;
+}
+.attribute-item-content {
+    font-size: 16px;
+    color: #666;
+    padding: 0 25px;
+    margin-top: 8px;
+}
+.ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.tab-container .tab-content-container .tab-content {
+    display: block;
+}
+.tab-celebrity .celebrity-container {
+    margin-top: 40px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.comment-container .portrait-container {
+    margin-right: 20px;
+    float: left;
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.comment-container .portrait {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+}
+.comment-container .portrait img {
+    width: 50px;
+}
+.comment-container .portrait-container .level-4-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    background: url(../image/vip1.png);
+	background-image: url(../image/vip1.png);
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;
+}
+i {
+    font-style: italic;
+}
+.comment-container .main {
+    margin-left: 70px;
+}
+.comment-container .main-header {
+    position: relative;
+    font-size: 16px;
+}
+.comment-container .comment-content {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #666;
+    line-height: 26px;
+    font-size: 14px;
+}
+.comment-container .main-header {
+    position: relative;
+    font-size: 16px;
+}
+ul {
+    list-style: none;
+    list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    padding-left: 0;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.comment-container .main-header .name {
+    vertical-align: middle;
+    color: #333;
+}
+.comment-container .main-header .time {
+    margin-top: 4px;
+    color: #999;
+}
+.comment-container .main-header .score-star {
+    display: inline-block;
+}
+.score-star li {
+    float: left;
+    height: 16px;
+}
+score-star .half-star {
+    display: inline-block;
+    width: 8px;
+    height: 16px;
+}
+.score-star .half-star.left {
+    margin-left: 2px;
+    background: url(../image/bx1.png);
+	background-image: url(../image/bx1.png);
+	background-position-x: initial;
+	background-position-y: initial;
+	background-size: initial;
+	background-repeat-x: initial;
+	background-repeat-y: initial;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;
+}
+.score-star .half-star.right {
+    margin-right: 2px;
+    background: url(../image/bx2.png);
+    background-image: url(../image/bx2.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+.comment-container .portrait-container .level-2-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    background: url(../image/vip2.png);
+    background-image: url(../image/vip2.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+.comment-container .approve {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+.comment-container .approve .approve-icon {
+    cursor: pointer;
+    margin-top: -6px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.like-icon, i.approve-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../image/zan.png);
+}
+.comment-container .approve .num {
+    font-size: 14px;
+    color: #999;
+}
+.tab-container .related-tab-title {
+    height: 30px;
+    margin: 45px 0;
+    margin-top: 45px;
+    margin-right: 0px;
+    margin-bottom: 45px;
+    margin-left: 0px;
+}
+.tab-container .related-tab-title {
+    height: 30px;
+    margin: 45px 0;
+    margin-top: 45px;
+    margin-right: 0px;
+    margin-bottom: 45px;
+    margin-left: 0px;
+}
+.tab-container .tab-title-container {
+    border-bottom: 2px solid #eee;
+}
+.main-content-container>div.related {
+    margin-left: 840px;
+	margin-right: 0px;
+    width: 360px;
+}
+.tab-container .tab-content-container .tab-content.active {
+    display: block;
+}
+.module .mod-content {
+    margin-top: 20px;
+    color: #333;
+}
+.module .mod-title h2 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+    line-height: 18px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.news-list {
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+dd {
+    display: block;
+    margin-inline-start: 40px;
+}
+.news-item {
+    overflow: hidden;
+    margin: 0 0 16px;
+}
+.news-img {
+    background-color: #efefef;
+    position: relative;
+    width: 140px;
+    height: 86px;
+    overflow: hidden;
+    float: left;
+}
+.news-img img {
+    position: absolute;
+}
+.news-img-default {
+    top: 50%;
+    left: 50%;
+    width: 68px;
+    height: 62px;
+    margin-top: -31px;
+    margin-left: -34px;
+}
+.news-main {
+    overflow: hidden;
+    position: relative;
+    margin-left: 150px;
+    height: 86px;
+}
+.news-title a {
+    color: #333;
+}
+.news-title {
+    line-height: 1.2;
+    font-size: 16px;
+    margin-top: 4px;
+    height: 38px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.news-info {
+    color: #999;
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    white-space: nowrap;
+}
+.news-icon {
+    margin: 0 2px 0 5px;
+    margin-top: 0px;
+    margin-right: 2px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+.news-icon, .news-source {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.news-source {
+    max-width: 7em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.news-icon-views {
+    width: 18px;
+    height: 14px;
+    background: url(../image/eye.png) no-repeat top;
+	background-image: url(../image/eye.png);
+	background-position-x: center;
+	background-position-y: top;
+	background-size: 18px 14px;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;
+    background-size: 18px 14px;
+}
+.news-icon-comments {
+    width: 16px;
+    height: 14px;
+    background: url(../image/PL.png) no-repeat top;
+	background-image: url(../image/PL.png);
+	background-position-x: center;
+	background-position-y: top;
+	background-size: 16px 14px;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat;
+	background-attachment: initial;
+	background-origin: initial;
+	background-clip: initial;
+	background-color: initial;
+	background-size: 16px 14px;
+}
+.movie-list {
+    margin: -29px 0 20px -25px;
+    margin-top: -29px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: -25px;
+}
+.related-movies .movie-list {
+    margin: -19px 0 20px -18px;
+    margin-top: -19px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: -18px;
+}
+.main-content-container>div.related .movie-list .channel-detail {
+    width: 106px;
+}
+.related-movies .channel-detail-orange, .related-movies .movie-item-title {
+    font-size: 14px;
+}
+.related-movies .channel-detail {
+    width: 106px;
+}
+.channel-detail {
+    width: 160px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+.channel-detail-orange, .channel-detail-prescore {
+    color: #ffb400;
+}
+.main-content-container>div.related .movie-list .movie-item .movie-poster {
+    width: 106px;
+    height: 145px;
+}
+.movie-poster {
+    background-color: #fcfcfc;
+    width: 160px;
+    height: 220px;
+    overflow: hidden;
+    position: relative;
+}
+.movie-poster img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.movie-item-hover {
+    display: none;
+    position: absolute;
+    width: 218px;
+    height: 300px;
+    z-index: 10;
+    top: -40px;
+    left: -29px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: #fff;
+    -moz-box-shadow: 0 0 16px #fff,0 0 6px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 0 16px #fff, 0 0 6px rgba(0,0,0,.2);
+    box-shadow: 0 0 16px #fff, 0 0 6px rgba(0,0,0,.2);
+}
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.main-content-container>div.related .movie-list dd {
+    margin-left: 20px;
+}
+.related-movies dd {
+    margin: 20px 0 0 20px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+.movie-list dd {
+    margin: 30px 0 0 30px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.channel-detail a {
+    color: #333;
+}
+.tab-container .tab-content-container .tab-content.active {
+    display: block;
+}
+.tab-container .tab-content-container .tab-content {
+    display: none;
+}
+.yc{
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+.yc li{
+	display: inline-block;
+	margin-left: 70px;
+}
+.yc a:hover{
+	 color: red;
+	 font-size: 20px;
+	 font-weight: bold;
+} 
+.yc a{
+	 color: #000000;
+	 font-size: 20px;
+	 font-weight: bold;
+} 
+.hezi{
+	border: #000000 3px solid;
+}
+.ycl{
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-left: 120px;
+	margin-bottom: 50px;
+    border-bottom: 1px solid #e5e5e5;
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(229, 229, 229);
+}
+.timee{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 300px;
+}
+.ycl a{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+.yus{
+	display: inline-block;
+	margin-left: 335px;
+}
+.yus a:hover{
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}

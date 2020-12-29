@@ -1,0 +1,55 @@
+*{padding: 0;margin: 0;}
+ul{
+	list-style: none;
+}
+#box div{
+	display: inline-block;
+}
+.seat1{
+	float: left;
+	width: 650px;
+}
+.hall{
+	font-size: 30px;
+	text-align: center;
+	color: #777777;
+}
+.seat2{
+	padding: 20px;
+}
+.seat3{
+	float: left;
+	position: absolute;
+	padding: 0 5px;
+}
+.shu{
+	margin-left: 20px;
+}
+.shu li{
+	color: #777777;
+	display: inline-block;
+	margin-left: 29px;
+}
+.hang,.shu{
+	font-size: 20px;
+	
+}
+.hang{
+	display: inline-block;
+	margin-top: 7px;
+	float: left;
+}
+.hang li{
+	margin-bottom: 20px;
+	color: #777777;
+}
+.table{
+	padding: 0px 0 0 10px;
+	float: left;
+}
+.table td{
+	width: 36px;
+	height: 32px;
+	padding: 11px 5px 0px;
+	display: inline-block;
+}

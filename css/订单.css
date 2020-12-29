@@ -1,0 +1,102 @@
+body{
+	background: #eff0f1;
+}
+*{padding: 0 ; margin: 0;}
+.box{
+	background: white;
+	width: 900px;
+	margin: 120px auto;
+}
+.logo1{
+	border-bottom: 2px solid #E02025;
+}
+.logo1>img{
+	margin-left: 20px;
+}
+.logo1 span{
+	font-size: 24px;
+	float: right;
+	padding: 25px;
+}
+.movie-box{
+	padding: 15px 20px;
+	border-bottom: 1px solid #c1c1c1;
+}
+.right{
+	float: right;
+}
+.zuo2{
+	position: absolute;
+}
+.zuo{
+	display: inline-block;
+	margin-left: 54%;
+}
+.zuo>span{
+	width: 400px;
+	display: inline-block;
+}
+.zuo>span>span{
+	float: right;
+	margin-left: 12px;
+}
+.money{
+	line-height: 20px;
+	color: #E02025;
+	font-size: 20px;
+}
+.btn{
+	height: 60px;
+}
+.fu{
+	margin: 10px 10px 0 0;
+}
+.submit{
+	outline: none;
+	border-radius: 10px;
+	font-size: 16px;
+	width: 200px;
+	height: 50px;
+	float: right;
+	border: #e02025;
+    color: #FFF;
+    padding: 7px 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    background: #f3464c;
+}
+.movie-img{
+	display: inline-block;
+	width: 95px;
+	height: 130px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+.box-height{
+	height: 130px;
+}
+.movie-img img{
+	width: 100%;
+}
+.box-jj{
+	color: #585858;
+	margin: 0px 0 0 20px  ;
+	display: inline-block;
+	float: left;
+}
+.box-jj div{
+	padding: 2px 0;
+}
+.jian{
+	width: 400px;
+	height: 40px;
+	overflow: auto;
+}
+.feng{
+	float: right;
+}
+.feng span{
+	font-size: 25px;
+	color: #E02025;
+}

@@ -1,0 +1,235 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.content {
+	width: 1200px;
+    overflow: hidden;
+    margin-top: 30px;
+	border: 1px solid red;
+	margin: 0px auto;
+}
+.main {
+    padding: 0 18px;
+}
+.info-content {
+    border: 1px solid #e1e1e1;
+    position: relative;
+}
+.info-content .user-profile-nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: #f4f3f4;
+    text-align: center;
+    border-right: 1px solid #e1e1e1;
+}
+.info-content .user-profile-nav h1 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    color: #222;
+    font-weight: 400;
+}
+.info-content .user-profile-nav a.active {
+    color: #fff;
+    background-color: #ed3931;
+}
+.info-content .user-profile-nav a {
+    display: block;
+    font-weight: 400;
+    color: #333;
+    height: 40px;
+    width: 202px;
+    margin-left: -1px;
+    line-height: 40px;
+    font-size: 18px;
+}
+   .info-content .user-profile-nav a {
+       display: block;
+       font-weight: 400;
+       color: #333;
+       height: 40px;
+       width: 202px;
+       margin-left: -1px;
+       line-height: 40px;
+       font-size: 18px;
+   }
+   a {
+       text-decoration: none;
+   }
+   .user-profile-nav a:link{
+	   
+   }
+   .info-content .orders-container, .info-content .profile-container {
+       float: left;
+       margin-left: 200px;
+       padding-left: 40px;
+       width: 922px;
+       min-height: 900px;
+   }
+ .orders-container .profile-title {
+       padding: 26px 0;
+       color: #ec443f;
+       font-size: 18px;
+       border: 1px solid blue;
+       margin-bottom: 30px;
+	   }
+	   
+	   .orders-container{
+		   border: 1px solid red;
+	  
+}
+	  .jbxx{
+		   width: 1000px;
+		  height: 300px;
+		  border: 1px solid #222222;
+	  }
+	  .profile-title{
+		  border-bottom: 1px solid red;
+	  }
+	  
+	  //基本信息
+		.box-jbxx{
+			height: 500px;
+			width: 500px;
+			border: solid 1px bule;
+		}
+		.avatar-container {
+	      text-align: center;
+		  display: inline-block;
+	      float: left;
+	      color: #333;
+	      background: #fff;
+	      width: 270px;
+		}
+		
+		.movie-img{
+			float: left;
+			border: 1px solid red;
+			display: inline-block;
+		}
+		.movie-jbxx{
+			float: left;
+			display: inline-block;
+			border: 1px solid red;
+			    float: left;
+			    width: 495px;
+			    margin-left: 58px;
+			
+		}
+		.userexinfo-form {
+		    float: left;
+		    display: inline-block;
+		    border: 1px solid red;
+		    float: left;
+		        width: 495px;
+		        margin-left: 58px;
+			height: 500px;
+		}
+		//昵称
+		.userexinfo-form .userexinfo-form-section:first-child {
+		    margin-top: 0;
+		}
+		.userexinfo-form .userexinfo-form-section {
+		    color: #666;
+		    position: relative;
+		    margin: 20px 0;
+		    padding-left: 90px;
+		    height: 50px;
+		    line-height: 30px;
+		    font-size: 14px;
+		}
+		.userexinfo-form .userexinfo-form-section p {
+		    font-size: 16px;
+		}
+		.userexinfo-form p {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 80px;
+		    text-align: right;
+		    color: #333;
+		    padding: 0;
+		    margin: 0;
+		}
+		user agent stylesheet
+		p {
+		    display: block;
+		    margin-block-start: 1em;
+		    margin-block-end: 1em;
+		    margin-inline-start: 0px;
+		    margin-inline-end: 0px;
+		}
+		.userexinfo-form .userexinfo-form-section input[type=text] {
+		    width: 240px;
+		    font-size: 12px;
+		    height: 30px;
+		    padding-left: 10px;
+		}
+		
+		
+		.ui-select {
+		    display: inline-block;
+		    background: transparent;
+		    border: 1px solid #999;
+		    border-radius: 0;
+		    font-size: 14px;
+		    height: 30px;
+		    position: relative;
+		}
+		.userexinfo-form .clearfix {
+		    zoom: 1;
+		}
+		.userexinfo-form .form-save-btn {
+		    cursor: pointer;
+		    border-radius: 5px;
+		    width: 100px;
+		    height: 40px;
+		    color: #fff;
+		    font-size: 18px;
+		    line-height: 40px;
+		    border: none;
+		    background-color: #ed3931;
+		    padding: 0;
+			margin-left: 200px;
+		}
+		
+		.ghtx{
+			    cursor: pointer;
+			    margin: 20px auto 0;
+			    width: 182px;
+			    height: 56px;
+			    line-height: 56px;
+			    color: #5b5b5b;
+			    background-color: #e6e6e6;
+			    border-radius: 10px;
+			    border: 1px;
+			    font-size: 18px;
+			    padding: 0;
+				text-align: center;
+		}
+		
+	.userexinfo-form .userexinfo-form-section .interes-list {
+	    font-size: 14px;
+	    width: 300px;
+	}
+	
+	.userexinfo-form .userexinfo-form-section .bottom-tips {
+	    white-space: nowrap;
+	    color: #ccc;
+	}
+	
+.tips {
+	    margin-top: 10px;
+	    color: #999;
+	    font-size: 18px;
+	    line-height: 30px;
+	}
+	
+	//优惠卷
+	.money{
+		margin: 200px 0 0 0;
+		
+	}

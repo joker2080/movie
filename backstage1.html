@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>后台</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/backstage1.css"/>
+	<body>
+		<div class="box-All">
+		<!-- 头部 -->
+		<header>
+			<div class="box-Login">
+				<div>欢迎登陆：卢本伟</div>
+			</div>
+			<ul>
+				<li>影院管理</li>
+				<li>优惠券</li>
+				<li>用户管理</li>
+				<li>统计</li>
+				<li>5</li>
+			</ul>
+		</header>
+		<!-- 身体 -->
+		<section>
+			<div id="tishi">
+				<div class="tishi-left">
+					<div class="tupian"><img src="images/xg2.jpg" ></div>
+					<div class="btn-image"><input type="file" name="" id="" value="更换图片" /></div>
+				</div>
+				<div class="tishi-right">
+					<div>影院名称：<input type="text" name="name" size="16" value="" /></div>
+					<div>影院地址：<input type="text" name="dizhi" size="16" value="" /></div>
+					<div>联系电话：<input type="text" name="dizhi" size="16" value="" /></div>
+					<div>
+						<input type="button" id="quxiao" value="取消" />
+						<input type="button" id="zeng" value="新增" />
+					</div>
+				</div>
+			</div>
+			
+			<div class="box-show">
+				<!-- <div class="box-sou">
+					影城名：
+					<input type="text" name="search" id="sou" value="" /> 
+					<input type="button" id="btn" value="查询" />	
+					<span><input type="button" id="insert" value="新增影城" /></span>
+				</div>
+				<span>
+					<div>
+						<span>影城：万达电影城</span>
+						<input type="button" id="del" value="删除" />
+					</div>
+					<div>
+						<span>影城：万达电影城</span>
+						<input type="button" id="del" value="删除" />
+					</div>
+					<div>
+						<span>影城：万达电影城</span>
+						<input type="button" id="del" value="删除" />
+					</div>
+					<div>
+						<span>影城：万达电影城</span>
+						<input type="button" id="del" value="删除" />
+					</div>
+					<div>
+						<span>影城：万达电影城</span>
+						<input type="button" id="del" value="删除" />
+					</div>
+					<div>
+						<span>影城：万达电影城</span>
+						<input type="button" id="del" value="删除" />
+					</div>
+				</span>
+				<div class="box-btn">
+					<input type="button" id="prevPage" value="上一页" />
+					<span>1/31</span>
+					<input type="button" id="nextPage" value="下一页" />
+				</div> -->
+				<div class="zeng-box">
+					<div id="fanghui">返回</div>
+					<div class="title-film">新增电影</div>
+					<div class="box-daoyan">
+						<span>导演</span>
+						<div>
+							<form id="uploadForm" action="<%=basePath %>FileUpLoadServlet" method="post" enctype="multipart/form-data">
+								<div class="tishi-left" id="box-left">
+								
+									<div class="oneFile_div"><!-- 一个上传控件 -->  
+										<div class="shade" onclick="javascript:closeShade(this)">
+											<div class="">
+												<span class="text_span">
+													
+												</span>
+											</div>
+										</div>
+										<div class="img_div" style="height: 145px;width: 106px;">
+										</div>
+										<div class="shadeImg" onclick="javascript:closeShadeImg(this)">
+											<div class="">
+												<img class="showImg" src="">
+											</div>
+										</div>
+										<a href="javascript:;" class="a-upload">
+											<input type="file" name="myFile_img1" value="main" class="myFile" multiple="multiple" />上传图片
+										</a>
+									</div>
+									
+								
+								</div>
+								<div class="tishi-right" id="box-right">
+									<div>导演名字：<input type="text" name="drname" size="16" value="" /></div>
+								</div>
+			</form>
+						</div>
+					</div>
+					<div class="box-yanyuan">
+						<span>演员</span>
+						<div>
+										<form id="uploadForm" action="<%=basePath %>FileUpLoadServlet" method="post" enctype="multipart/form-data">
+											<div class="tishi-left" id="box-left">
+											
+												<div class="oneFile_div"><!-- 一个上传控件 -->  
+													<div class="shade" onclick="javascript:closeShade(this)">
+														<div class="">
+															<span class="text_span">
+																
+															</span>
+														</div>
+													</div>
+													<div class="img_div" style="height: 145px;width: 106px;">
+													</div>
+													<div class="shadeImg" onclick="javascript:closeShadeImg(this)">
+														<div class="">
+															<img class="showImg" src="">
+														</div>
+													</div>
+													<a href="javascript:;" class="a-upload">
+														<input type="file" name="myFile_img1" value="main" class="myFile" multiple="multiple" />上传图片
+													</a>
+												</div>
+												
+											
+											</div>
+											<div class="tishi-right" id="box-right">
+												<div>演员名字：<input type="text" name="arname" size="16" value="" /></div>
+											</div>
+						</form>
+									</div>
+					</div>
+					<div id="box-movie">
+						<span>电影</span>
+						<form id="uploadForm" action="<%=basePath %>FileUpLoadServlet" method="post" enctype="multipart/form-data">
+							<div class="tishi-left" id="box-img">
+							
+								<div class="oneFile_div"><!-- 一个上传控件 -->  
+									<div class="shade" onclick="javascript:closeShade(this)">
+										<div class="">
+											<span class="text_span">
+												
+											</span>
+										</div>
+									</div>
+									<div class="img_div" style="height: 145px;width: 106px;">
+									</div>
+									<div class="shadeImg" onclick="javascript:closeShadeImg(this)">
+										<div class="">
+											<img class="showImg" src="">
+										</div>
+									</div>
+									<a href="javascript:;" class="a-upload">
+										<input type="file" name="myFile_img1" value="main" class="myFile" multiple="multiple" />上传图片
+									</a>
+								</div>
+								
+							
+							</div>
+							<div id="film-box">
+								<div>电影名称：<input type="text" name="filmname" size="16" value="" /></div>
+								<div>
+									<span>导演名字：</span>
+									<select name="drid" style=" height: 30px; width: 75px;">
+										<option value="1">卢本伟</option>
+									</select>
+								</div>
+								<div>电影简介：<input type="text" name="filminto" size="16" value="" /></div>
+								<div>
+									<span>演员名字：</span>
+									<select name="drid" style=" height: 30px; width: 75px;">
+										<option value="1">马飞飞</option>
+									</select>
+									<select name="drid" style=" height: 30px; width: 75px;">
+										<option value="1">奥利给</option>
+									</select>
+								</div>
+								<div>上映时间：<input type="text" name="filmtime" size="16" value="" /></div>
+								<div>电影时长：<input type="text" name="filmsc" size="16" value="" /></div>
+							</div>
+							<div class="btn-film">
+								<input type="button" id="quxiao" value="取消" />
+								<input type="button" id="zeng" value="新增" />
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- 尾部 -->
+		<footer>
+			
+		</footer>
+		</div>
+		<script src="js/jquery-1.8.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/backstage1.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

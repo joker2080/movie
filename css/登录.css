@@ -1,0 +1,89 @@
+*{padding: 0;margin: 0;}
+.tou1{
+	display: block;
+	margin: 40px auto 30px;
+	width: 980px;
+}
+.shen1{
+	margin: 0 auto 70px;
+	width: 980px;
+	height: 400px;
+}
+.shen2{
+	float: left;
+    height: 370px;
+    margin: 0 115px 0 0;
+    width: 480px;
+}
+.shen3{
+	display: block;
+	float: left;
+    padding-top: 0;
+	width: 270px;
+	font-size: 13px;
+	margin: 8px 0;
+	color: #666;
+}
+.shen4{
+    margin: 20px 0;
+	border: 1px solid #aaaaaa;
+    width: 100%;
+}
+.i{
+	width: 5px;
+    height: 5px;
+    display: inline-block;
+    border-right: 1px solid #646464;
+    border-top: 1px solid #646464;
+    transform: rotate(45deg);
+    margin-right: 4px;
+    position: relative;
+    bottom: 2px;
+}
+.shen5{
+	width: 180px;
+	padding-left: 5px;
+	border: none;
+    padding: 10px;
+	outline:none;
+}
+.pwdlogo{
+	position: relative;
+	display: inline-block;
+	width: 24px;
+    height: 24px;
+	top: 7px;
+    left: 5px;
+    background-image: url(../images/pwd.jpg);
+}
+.login{
+	margin: 20px 0;
+    
+}
+.login input{
+	border: #e02025;
+	color: #FFF;
+	background: #ec454a;
+	width: 100%;
+	padding: 7px 20px 6px;
+}
+a{
+	text-decoration: none;
+	color: #ec454a;
+}
+.kong{
+	margin: 20px 0;
+	padding: 10px 0px;
+	width: 100%;
+}
+.wei{
+	border-top: 1px solid #EEE;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 13px;
+	color: #999;
+}
+.wei a{
+	color: #999;
+	text-decoration: none;
+}
